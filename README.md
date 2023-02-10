@@ -9,6 +9,8 @@ endpoint = "https://aaron-example-test-containers.trycloudflare.com"
 # Characters
 You can create characters [here](https://oobabooga.github.io/character-creator.html) 
 Take the output and put it in notepad or notepadd++ and save as a .json file in the Characters folder. 
+
+
 ![image](https://i.imgur.com/Lyl5BkAl.png)
 
 For creating characters I recommend asking chat gpt to make you characters in "this format" then paste the json file. 
