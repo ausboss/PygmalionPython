@@ -43,13 +43,12 @@ class History:
         parts = re.split(r'\n[a-zA-Z]', text)
         response_text = parts[0]
         # add the response to history
-        self.history.append(response_text)
         if len(self.history) > 100:
             self.history = self.history[-100:]
         return response_text
 
     def add_message(self, speaker, message):
-        self.history.append(f"{speaker}: {message}")
+        self.history.append(f"{speaker}: {message}\n")
 
     def save_conversation(self, character, user_input):
         self.add_message("You", user_input)
